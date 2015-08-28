@@ -1,6 +1,8 @@
 package translatehelper.ui;
 
 import translatehelper.Activator;
+import translatehelper.tools.ReadWriter;
+
 import org.eclipse.jface.dialogs.Dialog;
 import org.eclipse.jface.dialogs.IDialogConstants;
 import org.eclipse.jface.dialogs.MessageDialog;
@@ -120,6 +122,8 @@ public class QueryDialog extends Dialog{
 //						ResultModel rm = HttpClientUtil.convertDocToModel(doc);
 //						resultTextText.setText(ResultModel.getFormattedDisplatString(rm));
 //					}
+					String temp = new ReadWriter().getText(qtext);
+					
 					resultTextText.setText("查到就但不告诉你");
 				}
 				super.mouseDown(e);
