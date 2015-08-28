@@ -2,9 +2,11 @@ package translatehelper.actions;
 
 import org.eclipse.jface.action.IAction;
 import org.eclipse.jface.viewers.ISelection;
+import org.eclipse.swt.widgets.Display;
 import org.eclipse.ui.IWorkbenchWindow;
 import org.eclipse.ui.IWorkbenchWindowActionDelegate;
 import org.eclipse.jface.dialogs.MessageDialog;
+import translatehelper.ui.QueryDialog;
 
 /**
  * Our sample action implements workbench action delegate.
@@ -29,10 +31,12 @@ public class SampleAction implements IWorkbenchWindowActionDelegate {
 	 * @see IWorkbenchWindowActionDelegate#run
 	 */
 	public void run(IAction action) {
-		MessageDialog.openInformation(
-			window.getShell(),
-			"TranslateHelper",
-			"Hello, Eclipssssse world");
+//		MessageDialog.openInformation(
+//			window.getShell(),
+//			"TranslateHelper",
+//			"Hello, Eclipssssse world");
+		QueryDialog dialog = new QueryDialog(window.getShell());
+		dialog.open();
 	}
 
 	/**

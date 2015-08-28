@@ -9,17 +9,17 @@
             visible="true"
             id="TranslateHelper.actionSet">
          <menu
-               label="呵呵"
+               label="翻译助手"
                id="sampleMenu">
             <separator
                   name="sampleGroup">
             </separator>
          </menu>
          <action
-               label="&amp;Sample Action"
+               label="翻译助手"
                icon="icons/sample.gif"
                class="translatehelper.actions.SampleAction"
-               tooltip="Hello, Eclipse world"
+               tooltip="翻译助手"
                menubarPath="sampleMenu/sampleGroup"
                toolbarPath="sampleGroup"
                id="translatehelper.actions.SampleAction">
