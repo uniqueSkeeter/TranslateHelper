@@ -123,6 +123,7 @@ public class QueryDialog extends Dialog{
 					resultTextText.setText("查到就但不告诉你");
 				}
 				super.mouseDown(e);
+				
 			}
 		});
 	}
