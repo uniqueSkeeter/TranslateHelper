@@ -1,0 +1,5 @@
+school 学校
+boy 男孩
+girl 女孩
+huawei 华为
+ZTE 友商

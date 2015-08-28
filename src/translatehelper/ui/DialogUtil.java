@@ -25,5 +25,11 @@ public class DialogUtil {
 		}
 		return selectedText;
 	}
+	
+	public static String getWord(){
+		String res = "";
+		
+		return res;
+	}
 
 }
