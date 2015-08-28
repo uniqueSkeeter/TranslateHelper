@@ -32,7 +32,7 @@ public class SampleAction implements IWorkbenchWindowActionDelegate {
 		MessageDialog.openInformation(
 			window.getShell(),
 			"TranslateHelper",
-			"Hello, Eclipse world");
+			"Hello, Eclipssssse world");
 	}
 
 	/**
